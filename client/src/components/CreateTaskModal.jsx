@@ -14,7 +14,7 @@ const CreateTaskModal = ({
   const handleCreateTask = async () => {
     await axios
       .post(
-        "http://localhost:4000/api/v1/task/post",
+        "https://mern-stack-task-manager-1-1qos.onrender.com/api/v1/task/post",
         { title, description },
         {
           withCredentials: true,
