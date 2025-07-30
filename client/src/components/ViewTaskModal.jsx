@@ -10,7 +10,7 @@ const ViewTaskModal = ({ showViewModal, handleViewModalClose, id }) => {
     const getSingleTask = async () => {
       try {
         const res = await axios.get(
-          `https://mern-stack-task-manager-1-1qos.onrender.com/api/v1/task/single/${id}`,
+          `http://localhost:4000/api/v1/task/single/${id}`,
           { withCredentials: true }
         );
         setTask(res.data.task);
