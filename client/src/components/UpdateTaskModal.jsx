@@ -38,7 +38,7 @@ const UpdateTaskModal = ({
   const handleUpdateTask = async () => {
     await axios
       .put(
-        `http://localhost:4000/api/v1/task/update/${id}`,
+        `https://mern-stack-task-manager-1-1qos.onrender.com/api/v1/task/update/${id}`,
         {
           title,
           description,
