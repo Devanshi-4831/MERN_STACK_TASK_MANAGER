@@ -18,7 +18,7 @@ const Home = ({ isAuthenticated, tasks, setTasks, taskTitle }) => {
 
   const deleteTask = async (id) => {
     await axios
-      .delete(`http://localhost:4000/api/v1/task/delete/${id}`, {
+      .delete(`https://mern-stack-task-manager-1-1qos.onrender.com/api/v1/task/delete/${id}`, {
         withCredentials: true,
       })
       .then((res) => {
