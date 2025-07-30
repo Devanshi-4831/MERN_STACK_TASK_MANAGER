@@ -1,0 +1,165 @@
+/* ----- General ----- */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white !important;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: black !important;
+}
+
+/* ----- Form Styling ----- */
+.form-control,
+.custom-input {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ced4da !important;
+}
+
+.form-control::placeholder,
+.custom-input::placeholder {
+  color: white !important; /* Placeholder color */
+}
+
+.form-label {
+  color: black !important;
+  font-weight: 500;
+}
+
+/* ----- Headings ----- */
+h3.text-center,
+.login-title {
+  color: #4361ee !important;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* ----- Buttons ----- */
+.btn-primary {
+  background-color: #0d6efd !important;
+  border: none;
+}
+
+.submit-btn {
+  background-color: #4361ee !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.create-task-btn {
+   background-color: rgb(0, 0, 0)  !important;
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid rgb(0, 0, 0) !important;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.create-task-btn:hover {
+ background-color: rgb(255, 255, 255) !important;
+  color: #030303 !important;
+  border-color: rgb(0, 0, 0) !important;
+}
+
+/* ----- Navbar Styling ----- */
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar {
+  background-color: #4361ee !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-item,
+.custom-navbar .navbar-toggler {
+  color: white !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-item {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* ----- Card & Modal Styling ----- */
+.card {
+  background-color: white !important;
+  border: 1px solid #e0e0e0 !important;
+}
+
+.modal-content {
+  background-color: white !important;
+}
+
+/* ----- Link Styling ----- */
+a,
+.register-link {
+  color: #4361ee !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.form-text {
+  color: #0d6efd !important;
+  opacity: 0.8;
+}
+
+/* ----- Miscellaneous ----- */
+.text-c9184a {
+  color: #000000 !important;
+}
+
+.card-title + hr {
+  border-color: #ccc !important;
+}
+
+/* ----- Show Password Checkbox Styling ----- */
+.show-password-checkbox .form-check-input {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.show-password-checkbox .form-check-input:checked {
+  background-color: #0047fcf1; /* Optional checked color */
+}
+
+
+
+/* Logout Button Styling */
+.logout-btn {
+  background-color: transparent !important;
+  color: white !important;
+  border: 2px solid white !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background-color: white !important;
+  color: #102ef1 !important;
+  border-color: white !important;
+}
