@@ -18,7 +18,7 @@ const App = () => {
     const handleGetUser = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4000/api/v1/user/me",
+          "https://mern-stack-task-manager-1-1qos.onrender.com/api/v1/user/me",
           { withCredentials: true }
         );
         setIsAuthenticated(true);
