@@ -39,7 +39,7 @@ function Register({ isAuthenticated, setIsAuthenticated }) {
 
     try {
       const res = await axios.post(
-        "https://mern-stack-task-manager-1-1qos.onrender.com/api/v1/user/register",
+        "http://localhost:4000/api/v1/user/register",
         formData,
         {
           withCredentials: true,
