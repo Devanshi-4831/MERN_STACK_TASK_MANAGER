@@ -39,7 +39,7 @@ function Register({ isAuthenticated, setIsAuthenticated }) {
 
     try {
       const res = await axios.post(
-        "http://localhost:4000/api/v1/user/register",
+        "https://mern-stack-task-manager-wheat.vercel.app/login/api/v1/user/register",
         formData,
         {
           withCredentials: true,
